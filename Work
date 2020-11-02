@@ -1,0 +1,7 @@
+$title[Work]
+$color[#F0000]
+$author[$username]
+$authorIcon[$authorAvatar]
+$description[Você trabalhou e ganhou R$$random[50;5000]]$setUserVar[money;$sum[$getUserVar[money];$random[50;5000]]]
+$nomention
+$cooldown[10s;Você tem que esperar %time% para trabalhar de novo!]
